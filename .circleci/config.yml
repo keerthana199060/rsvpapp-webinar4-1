@@ -32,7 +32,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            python -m pytest tests/test_rsvpapp.py 
+            python -m pytest tests/test_rsvpapp.py  
 
   build:
   
